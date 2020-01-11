@@ -1,6 +1,7 @@
 package con.carry.源码专题.spring.controller;
 
 import con.carry.源码专题.spring.config.Config;
+import con.carry.源码专题.spring.service.Service;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 /**
@@ -12,8 +13,7 @@ public class Demo {
 
 
         AnnotationConfigApplicationContext applicationContext = new AnnotationConfigApplicationContext(Config.class);
-        Object testService = applicationContext.getBean("testService");
-        System.out.println(testService);
-
+        Service testService = (Service) applicationContext.getBean("testService");
+        testService.test1();
     }
 }
