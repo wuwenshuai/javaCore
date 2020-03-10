@@ -435,10 +435,11 @@
       <screen x="0" y="0" width="1440" height="855" />
     </state>
     <state x="533" y="166" key="#com.intellij.ide.util.MemberChooser/1440.0.1440.900/0.0.1440.855@0.0.1440.855" timestamp="1578840909942" />
-    <state x="266" y="41" key="CommitChangelistDialog2" timestamp="1578747928109">
-      <screen x="0" y="23" width="1440" height="832" />
+    <state x="1706" y="42" key="CommitChangelistDialog2" timestamp="1583847931667">
+      <screen x="1440" y="23" width="1440" height="877" />
     </state>
     <state x="266" y="41" key="CommitChangelistDialog2/1440.23.1440.877/0.23.1440.832@0.23.1440.832" timestamp="1578747928109" />
+    <state x="1706" y="42" key="CommitChangelistDialog2/1440.23.1440.877/0.23.1440.834@1440.23.1440.877" timestamp="1583847931667" />
     <state width="1398" height="180" key="GridCell.Tab.0.bottom" timestamp="1582452872581">
       <screen x="1440" y="23" width="1440" height="877" />
     </state>
@@ -501,10 +502,11 @@
     <state x="229" y="77" key="SettingsEditor/1440.23.1440.832/0.23.1440.877@0.23.1440.877" timestamp="1578742908009" />
     <state x="229" y="74" key="SettingsEditor/1440.23.1440.877/0.23.1440.832@0.23.1440.832" timestamp="1578822267752" />
     <state x="229" y="74" key="SettingsEditor/1440.23.1440.877/0.23.1440.833@0.23.1440.833" timestamp="1578836911585" />
-    <state x="320" y="167" key="Vcs.Push.Dialog.v2" timestamp="1578747930973">
-      <screen x="0" y="23" width="1440" height="832" />
+    <state x="1760" y="175" key="Vcs.Push.Dialog.v2" timestamp="1583847936939">
+      <screen x="1440" y="23" width="1440" height="877" />
     </state>
     <state x="320" y="167" key="Vcs.Push.Dialog.v2/1440.23.1440.877/0.23.1440.832@0.23.1440.832" timestamp="1578747930973" />
+    <state x="1760" y="175" key="Vcs.Push.Dialog.v2/1440.23.1440.877/0.23.1440.834@1440.23.1440.877" timestamp="1583847936939" />
     <state x="399" y="271" key="com.intellij.ide.util.TipDialog" timestamp="1578742321054">
       <screen x="0" y="23" width="1440" height="831" />
     </state>
