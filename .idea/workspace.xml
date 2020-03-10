@@ -1,54 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="414581f8-90f7-4281-a21b-b9f6dc20165e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_5_0_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_0_b2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/con/carry/aop/AopConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/con/carry/aop/BaseService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/con/carry/aop/CarryAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/con/carry/aop/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/con/carry/aop/IndexServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/con/carry/aop/TestDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/con/carry/事务/app/AspectCarry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/con/carry/事务/app/Config.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/con/carry/事务/dao/OrderTabDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/con/carry/事务/dao/OrderTabDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/con/carry/事务/test/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/con/carry/动态代理源码分析/dao/LubanDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/con/carry/动态代理源码分析/dao/LubanDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/con/carry/动态代理源码分析/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/con/carry/动态代理源码分析/dao/UserDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/con/carry/动态代理源码分析/proxy/ProxyUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/con/carry/动态代理源码分析/test/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/con/carry/字节码/内部类/InnerClassDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/con/carry/源码专题/spring/anno/EnableCarry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/con/carry/源码专题/spring/beanFactoryPostProcessor/MybeanFactoryProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/con/carry/源码专题/spring/beanpostProcessor/TestServiceBeanPostProcess.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/con/carry/源码专题/spring/importSelect/MyImportSelecter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/con/carry/源码专题/spring/invocationHanler/MyInvocationHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/con/carry/源码专题/spring/proxy/CarryAspectj.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/con/carry/源码专题/spring/proxy/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/con/carry/源码专题/spring/service/Service.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/con/carry/设计模式/建造者模式/demo/Builder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/con/carry/设计模式/建造者模式/demo/Director.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/con/carry/设计模式/建造者模式/demo/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/con/carry/设计模式/建造者模式/demo/TestDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/con/carry/设计模式/建造者模式/demo/Worker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/con/carry/设计模式/建造者模式/demo2/Builder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/con/carry/设计模式/建造者模式/demo2/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/con/carry/设计模式/建造者模式/demo2/TestDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/con/carry/设计模式/建造者模式/demo2/Work.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="414581f8-90f7-4281-a21b-b9f6dc20165e" name="Default" comment="2020-01-11">
+      <change afterPath="$PROJECT_DIR$/src/main/java/con/carry/spring基础/config/Spring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/con/carry/spring基础/controller/SingleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/con/carry/spring基础/dao/ProtypeDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/con/carry/spring基础/dao/SingleDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/con/carry/spring基础/service/ProtypeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/con/carry/spring基础/service/SingleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/con/carry/spring基础/test/TestDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/con/carry/源码专题/spring/config/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/con/carry/源码专题/spring/config/Config.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/con/carry/源码专题/spring/controller/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/con/carry/源码专题/spring/controller/Demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/con/carry/源码专题/spring/service/IndexService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/con/carry/源码专题/spring/service/IndexService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/con/carry/源码专题/spring/service/TestService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/con/carry/源码专题/spring/service/TestService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/平时测试工程.iml" beforeDir="false" afterPath="$PROJECT_DIR$/平时测试工程.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/con/carry/java基础班/Demo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/con/carry/java基础班/Demo2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/con/carry/java基础班/Demo2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/con/carry/java基础班/Demo2.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,34 +33,6 @@
         <option value="Class" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>IC</find>
-      <find>ICO</find>
-      <find>ICON</find>
-      <find>ICONS</find>
-      <find>47615</find>
-      <find>AnnotatedBeanDefinition</find>
-      <find>refresh()</find>
-      <find>I</find>
-      <find>Index</find>
-      <find>IndexS</find>
-      <find>T</find>
-      <find>TestSer</find>
-      <find>TestServi</find>
-      <find>TestServic</find>
-      <find>TestService</find>
-      <find>invokeB</find>
-      <find>prepa</find>
-      <find>register</find>
-      <find>dosc</find>
-      <find>resolveBeforeInstantiation</find>
-      <find>add</find>
-    </findStrings>
-    <replaceStrings>
-      <replace />
-    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -121,12 +56,6 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1499" />
-    <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="830" />
-  </component>
   <component name="ProjectId" id="1WFPKo6cCrXQZHMQlTDMedIeLgz" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -145,7 +74,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -162,7 +91,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/con/carry/aop" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestDemo (1)">
+  <component name="RunManager" selected="Application.Demo2">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -198,27 +127,13 @@
       <module />
       <method />
     </configuration>
-    <configuration name="Demo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="con.carry.源码专题.spring.proxy.Demo" />
+    <configuration name="Demo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="con.carry.java基础班.Demo2" />
       <module name="平时测试工程" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="con.carry.源码专题.spring.proxy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Demo (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="con.carry.源码专题.spring.controller.Demo" />
-      <module name="平时测试工程" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="con.carry.源码专题.spring.controller.*" />
+          <option name="PATTERN" value="con.carry.java基础班.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -233,6 +148,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="con.carry.字节码.内部类.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SingleController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="con.carry.spring基础.controller.SingleController" />
+      <module name="平时测试工程" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="con.carry.spring基础.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -381,19 +310,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.Demo (2)" />
-      <item itemvalue="Application.Demo (1)" />
       <item itemvalue="Application.InnerClassDemo" />
       <item itemvalue="Application.TestDemo" />
       <item itemvalue="Application.TestDemo (1)" />
+      <item itemvalue="Application.SingleController" />
+      <item itemvalue="Application.Demo2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Demo2" />
+        <item itemvalue="Application.SingleController" />
         <item itemvalue="Application.TestDemo (1)" />
         <item itemvalue="Application.TestDemo" />
         <item itemvalue="Application.InnerClassDemo" />
-        <item itemvalue="Application.Demo (1)" />
-        <item itemvalue="Application.Demo (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -456,6 +385,17 @@
       <workItem from="1578667383454" duration="121000" />
       <workItem from="1578667510077" duration="278000" />
       <workItem from="1578742316875" duration="947000" />
+      <workItem from="1578747899098" duration="713000" />
+      <workItem from="1578807593544" duration="343000" />
+      <workItem from="1578807973948" duration="7095000" />
+      <workItem from="1580867583926" duration="23000" />
+      <workItem from="1581655598588" duration="232000" />
+      <workItem from="1582021544457" duration="249000" />
+      <workItem from="1582022602773" duration="932000" />
+      <workItem from="1582448997348" duration="4935000" />
+      <workItem from="1583069354065" duration="254000" />
+      <workItem from="1583069716605" duration="709000" />
+      <workItem from="1583070639941" duration="1552000" />
     </task>
     <task id="LOCAL-00001" summary="添加策略和模板模式">
       <created>1569422564163</created>
@@ -471,7 +411,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572012962844</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="2020-01-11">
+      <created>1578747928801</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1578747928801</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -480,13 +427,84 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="添加策略和模板模式" />
     <MESSAGE value="2019-10-25" />
-    <option name="LAST_COMMIT_MESSAGE" value="2019-10-25" />
+    <MESSAGE value="2020-01-11" />
+    <option name="LAST_COMMIT_MESSAGE" value="2020-01-11" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="229" y="77" key="SettingsEditor" timestamp="1578742908009">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state x="533" y="166" key="#com.intellij.ide.util.MemberChooser" timestamp="1578840909942">
+      <screen x="0" y="0" width="1440" height="855" />
+    </state>
+    <state x="533" y="166" key="#com.intellij.ide.util.MemberChooser/1440.0.1440.900/0.0.1440.855@0.0.1440.855" timestamp="1578840909942" />
+    <state x="266" y="41" key="CommitChangelistDialog2" timestamp="1578747928109">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state x="266" y="41" key="CommitChangelistDialog2/1440.23.1440.877/0.23.1440.832@0.23.1440.832" timestamp="1578747928109" />
+    <state width="1398" height="180" key="GridCell.Tab.0.bottom" timestamp="1582452872581">
+      <screen x="1440" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="213" key="GridCell.Tab.0.bottom/1440.0.1440.900/0.0.1440.855@0.0.1440.855" timestamp="1581667585423" />
+    <state width="1398" height="213" key="GridCell.Tab.0.bottom/1440.0.1440.900/0.0.1440.858@0.0.1440.858" timestamp="1582021793340" />
+    <state width="1398" height="213" key="GridCell.Tab.0.bottom/1440.0.1440.900/0.0.1440.859@0.0.1440.859" timestamp="1582021589647" />
+    <state width="1398" height="213" key="GridCell.Tab.0.bottom/1440.23.1440.877/0.23.1440.831@0.23.1440.831" timestamp="1579439968439" />
+    <state width="1345" height="185" key="GridCell.Tab.0.bottom/1440.23.1440.877/0.23.1440.833@0.23.1440.833" timestamp="1578838236791" />
+    <state width="1398" height="186" key="GridCell.Tab.0.bottom/1440.23.1440.877/0.23.1440.834@0.23.1440.834" timestamp="1582449566284" />
+    <state width="1398" height="180" key="GridCell.Tab.0.bottom/1440.23.1440.877/0.23.1440.834@1440.23.1440.877" timestamp="1582452872581" />
+    <state width="1398" height="180" key="GridCell.Tab.0.center" timestamp="1582452872579">
+      <screen x="1440" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="213" key="GridCell.Tab.0.center/1440.0.1440.900/0.0.1440.855@0.0.1440.855" timestamp="1581667585420" />
+    <state width="1398" height="213" key="GridCell.Tab.0.center/1440.0.1440.900/0.0.1440.858@0.0.1440.858" timestamp="1582021793336" />
+    <state width="1398" height="213" key="GridCell.Tab.0.center/1440.0.1440.900/0.0.1440.859@0.0.1440.859" timestamp="1582021589642" />
+    <state width="1398" height="213" key="GridCell.Tab.0.center/1440.23.1440.877/0.23.1440.831@0.23.1440.831" timestamp="1579439968437" />
+    <state width="1345" height="185" key="GridCell.Tab.0.center/1440.23.1440.877/0.23.1440.833@0.23.1440.833" timestamp="1578838236789" />
+    <state width="1398" height="186" key="GridCell.Tab.0.center/1440.23.1440.877/0.23.1440.834@0.23.1440.834" timestamp="1582449566282" />
+    <state width="1398" height="180" key="GridCell.Tab.0.center/1440.23.1440.877/0.23.1440.834@1440.23.1440.877" timestamp="1582452872579" />
+    <state width="1398" height="180" key="GridCell.Tab.0.left" timestamp="1582452872578">
+      <screen x="1440" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="213" key="GridCell.Tab.0.left/1440.0.1440.900/0.0.1440.855@0.0.1440.855" timestamp="1581667585419" />
+    <state width="1398" height="213" key="GridCell.Tab.0.left/1440.0.1440.900/0.0.1440.858@0.0.1440.858" timestamp="1582021793335" />
+    <state width="1398" height="213" key="GridCell.Tab.0.left/1440.0.1440.900/0.0.1440.859@0.0.1440.859" timestamp="1582021589640" />
+    <state width="1398" height="213" key="GridCell.Tab.0.left/1440.23.1440.877/0.23.1440.831@0.23.1440.831" timestamp="1579439968436" />
+    <state width="1345" height="185" key="GridCell.Tab.0.left/1440.23.1440.877/0.23.1440.833@0.23.1440.833" timestamp="1578838236788" />
+    <state width="1398" height="186" key="GridCell.Tab.0.left/1440.23.1440.877/0.23.1440.834@0.23.1440.834" timestamp="1582449566281" />
+    <state width="1398" height="180" key="GridCell.Tab.0.left/1440.23.1440.877/0.23.1440.834@1440.23.1440.877" timestamp="1582452872578" />
+    <state width="1398" height="180" key="GridCell.Tab.0.right" timestamp="1582452872580">
+      <screen x="1440" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="213" key="GridCell.Tab.0.right/1440.0.1440.900/0.0.1440.855@0.0.1440.855" timestamp="1581667585422" />
+    <state width="1398" height="213" key="GridCell.Tab.0.right/1440.0.1440.900/0.0.1440.858@0.0.1440.858" timestamp="1582021793338" />
+    <state width="1398" height="213" key="GridCell.Tab.0.right/1440.0.1440.900/0.0.1440.859@0.0.1440.859" timestamp="1582021589645" />
+    <state width="1398" height="213" key="GridCell.Tab.0.right/1440.23.1440.877/0.23.1440.831@0.23.1440.831" timestamp="1579439968438" />
+    <state width="1345" height="185" key="GridCell.Tab.0.right/1440.23.1440.877/0.23.1440.833@0.23.1440.833" timestamp="1578838236790" />
+    <state width="1398" height="186" key="GridCell.Tab.0.right/1440.23.1440.877/0.23.1440.834@0.23.1440.834" timestamp="1582449566283" />
+    <state width="1398" height="180" key="GridCell.Tab.0.right/1440.23.1440.877/0.23.1440.834@1440.23.1440.877" timestamp="1582452872580" />
+    <state width="1398" height="167" key="GridCell.Tab.1.bottom" timestamp="1582452676732">
+      <screen x="1440" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="167" key="GridCell.Tab.1.bottom/1440.23.1440.877/0.23.1440.834@1440.23.1440.877" timestamp="1582452676732" />
+    <state width="1398" height="167" key="GridCell.Tab.1.center" timestamp="1582452676730">
+      <screen x="1440" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="167" key="GridCell.Tab.1.center/1440.23.1440.877/0.23.1440.834@1440.23.1440.877" timestamp="1582452676730" />
+    <state width="1398" height="167" key="GridCell.Tab.1.left" timestamp="1582452676729">
+      <screen x="1440" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="167" key="GridCell.Tab.1.left/1440.23.1440.877/0.23.1440.834@1440.23.1440.877" timestamp="1582452676729" />
+    <state width="1398" height="167" key="GridCell.Tab.1.right" timestamp="1582452676731">
+      <screen x="1440" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="167" key="GridCell.Tab.1.right/1440.23.1440.877/0.23.1440.834@1440.23.1440.877" timestamp="1582452676731" />
+    <state x="229" y="74" key="SettingsEditor" timestamp="1578836911585">
+      <screen x="0" y="23" width="1440" height="833" />
     </state>
     <state x="229" y="77" key="SettingsEditor/1440.23.1440.832/0.23.1440.877@0.23.1440.877" timestamp="1578742908009" />
+    <state x="229" y="74" key="SettingsEditor/1440.23.1440.877/0.23.1440.832@0.23.1440.832" timestamp="1578822267752" />
+    <state x="229" y="74" key="SettingsEditor/1440.23.1440.877/0.23.1440.833@0.23.1440.833" timestamp="1578836911585" />
+    <state x="320" y="167" key="Vcs.Push.Dialog.v2" timestamp="1578747930973">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state x="320" y="167" key="Vcs.Push.Dialog.v2/1440.23.1440.877/0.23.1440.832@0.23.1440.832" timestamp="1578747930973" />
     <state x="399" y="271" key="com.intellij.ide.util.TipDialog" timestamp="1578742321054">
       <screen x="0" y="23" width="1440" height="831" />
     </state>
