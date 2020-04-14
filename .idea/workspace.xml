@@ -1,17 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="414581f8-90f7-4281-a21b-b9f6dc20165e" name="Default" comment="2020-01-11">
-      <change afterPath="$PROJECT_DIR$/src/main/java/con/carry/spring基础/config/Spring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/con/carry/spring基础/controller/SingleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/con/carry/spring基础/dao/ProtypeDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/con/carry/spring基础/dao/SingleDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/con/carry/spring基础/service/ProtypeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/con/carry/spring基础/service/SingleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/con/carry/spring基础/test/TestDemo.java" afterDir="false" />
+    <list default="true" id="414581f8-90f7-4281-a21b-b9f6dc20165e" name="Default" comment="2020-03-10">
+      <change afterPath="$PROJECT_DIR$/src/main/java/con/carry/并发/lock/ReenterLockDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/con/carry/并发/lock/SpinLock.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/con/carry/java基础班/Demo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/con/carry/java基础班/Demo2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/con/carry/java基础班/Demo2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/con/carry/java基础班/Demo2.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +84,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/con/carry/aop" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Demo2">
+  <component name="RunManager" selected="Application.SpinLock">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -141,13 +134,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InnerClassDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="con.carry.字节码.内部类.InnerClassDemo" />
+    <configuration name="ReenterLockDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="con.carry.并发.lock.ReenterLockDemo" />
       <module name="平时测试工程" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="con.carry.字节码.内部类.*" />
+          <option name="PATTERN" value="con.carry.并发.lock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -169,13 +162,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestDemo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="con.carry.设计模式.建造者模式.demo2.TestDemo" />
+    <configuration name="SpinLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="con.carry.并发.lock.SpinLock" />
       <module name="平时测试工程" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="con.carry.设计模式.建造者模式.demo2.*" />
+          <option name="PATTERN" value="con.carry.并发.lock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -183,13 +176,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="con.carry.设计模式.建造者模式.demo.TestDemo" />
+    <configuration name="TestDemo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="con.carry.设计模式.建造者模式.demo2.TestDemo" />
       <module name="平时测试工程" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="con.carry.设计模式.建造者模式.demo.*" />
+          <option name="PATTERN" value="con.carry.设计模式.建造者模式.demo2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -310,19 +303,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.InnerClassDemo" />
-      <item itemvalue="Application.TestDemo" />
       <item itemvalue="Application.TestDemo (1)" />
       <item itemvalue="Application.SingleController" />
       <item itemvalue="Application.Demo2" />
+      <item itemvalue="Application.ReenterLockDemo" />
+      <item itemvalue="Application.SpinLock" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SpinLock" />
+        <item itemvalue="Application.ReenterLockDemo" />
         <item itemvalue="Application.Demo2" />
         <item itemvalue="Application.SingleController" />
         <item itemvalue="Application.TestDemo (1)" />
-        <item itemvalue="Application.TestDemo" />
-        <item itemvalue="Application.InnerClassDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -396,6 +389,8 @@
       <workItem from="1583069354065" duration="254000" />
       <workItem from="1583069716605" duration="709000" />
       <workItem from="1583070639941" duration="1552000" />
+      <workItem from="1583847869614" duration="1420000" />
+      <workItem from="1586788461384" duration="5146000" />
     </task>
     <task id="LOCAL-00001" summary="添加策略和模板模式">
       <created>1569422564163</created>
@@ -418,7 +413,21 @@
       <option name="project" value="LOCAL" />
       <updated>1578747928801</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="2020-03-10">
+      <created>1583847932340</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1583847932340</updated>
+    </task>
+    <task id="LOCAL-00005" summary="2020-03-10">
+      <created>1583848086713</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1583848086713</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -428,58 +437,70 @@
     <MESSAGE value="添加策略和模板模式" />
     <MESSAGE value="2019-10-25" />
     <MESSAGE value="2020-01-11" />
-    <option name="LAST_COMMIT_MESSAGE" value="2020-01-11" />
+    <MESSAGE value="2020-03-10" />
+    <option name="LAST_COMMIT_MESSAGE" value="2020-03-10" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="533" y="166" key="#com.intellij.ide.util.MemberChooser" timestamp="1578840909942">
-      <screen x="0" y="0" width="1440" height="855" />
+    <state x="1973" y="193" key="#com.intellij.ide.util.MemberChooser" timestamp="1586789260334">
+      <screen x="1440" y="23" width="1440" height="877" />
     </state>
     <state x="533" y="166" key="#com.intellij.ide.util.MemberChooser/1440.0.1440.900/0.0.1440.855@0.0.1440.855" timestamp="1578840909942" />
-    <state x="1706" y="42" key="CommitChangelistDialog2" timestamp="1583847931667">
-      <screen x="1440" y="23" width="1440" height="877" />
+    <state x="1973" y="193" key="#com.intellij.ide.util.MemberChooser/1440.23.1440.877/0.23.1440.843@1440.23.1440.877" timestamp="1586789260334" />
+    <state x="1706" y="20" key="CommitChangelistDialog2" timestamp="1586871192543">
+      <screen x="1440" y="0" width="1440" height="867" />
     </state>
+    <state x="1706" y="20" key="CommitChangelistDialog2/1440.0.1440.867/0.0.1440.900@1440.0.1440.867" timestamp="1586871192543" />
+    <state x="1706" y="42" key="CommitChangelistDialog2/1440.23.1440.834/0.23.1440.877@1440.23.1440.834" timestamp="1584110487224" />
     <state x="266" y="41" key="CommitChangelistDialog2/1440.23.1440.877/0.23.1440.832@0.23.1440.832" timestamp="1578747928109" />
-    <state x="1706" y="42" key="CommitChangelistDialog2/1440.23.1440.877/0.23.1440.834@1440.23.1440.877" timestamp="1583847931667" />
-    <state width="1398" height="180" key="GridCell.Tab.0.bottom" timestamp="1582452872581">
-      <screen x="1440" y="23" width="1440" height="877" />
+    <state x="1706" y="42" key="CommitChangelistDialog2/1440.23.1440.877/0.23.1440.834@1440.23.1440.877" timestamp="1583848086433" />
+    <state width="1398" height="197" key="GridCell.Tab.0.bottom" timestamp="1586793453845">
+      <screen x="1440" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="213" key="GridCell.Tab.0.bottom/1440.0.1440.900/0.0.1440.855@0.0.1440.855" timestamp="1581667585423" />
     <state width="1398" height="213" key="GridCell.Tab.0.bottom/1440.0.1440.900/0.0.1440.858@0.0.1440.858" timestamp="1582021793340" />
     <state width="1398" height="213" key="GridCell.Tab.0.bottom/1440.0.1440.900/0.0.1440.859@0.0.1440.859" timestamp="1582021589647" />
+    <state width="1398" height="197" key="GridCell.Tab.0.bottom/1440.0.1440.900/0.0.1440.866@1440.0.1440.900" timestamp="1586793453845" />
     <state width="1398" height="213" key="GridCell.Tab.0.bottom/1440.23.1440.877/0.23.1440.831@0.23.1440.831" timestamp="1579439968439" />
     <state width="1345" height="185" key="GridCell.Tab.0.bottom/1440.23.1440.877/0.23.1440.833@0.23.1440.833" timestamp="1578838236791" />
     <state width="1398" height="186" key="GridCell.Tab.0.bottom/1440.23.1440.877/0.23.1440.834@0.23.1440.834" timestamp="1582449566284" />
     <state width="1398" height="180" key="GridCell.Tab.0.bottom/1440.23.1440.877/0.23.1440.834@1440.23.1440.877" timestamp="1582452872581" />
-    <state width="1398" height="180" key="GridCell.Tab.0.center" timestamp="1582452872579">
-      <screen x="1440" y="23" width="1440" height="877" />
+    <state width="1398" height="197" key="GridCell.Tab.0.bottom/1440.23.1440.877/0.23.1440.843@1440.23.1440.877" timestamp="1586792320556" />
+    <state width="1398" height="197" key="GridCell.Tab.0.center" timestamp="1586793453842">
+      <screen x="1440" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="213" key="GridCell.Tab.0.center/1440.0.1440.900/0.0.1440.855@0.0.1440.855" timestamp="1581667585420" />
     <state width="1398" height="213" key="GridCell.Tab.0.center/1440.0.1440.900/0.0.1440.858@0.0.1440.858" timestamp="1582021793336" />
     <state width="1398" height="213" key="GridCell.Tab.0.center/1440.0.1440.900/0.0.1440.859@0.0.1440.859" timestamp="1582021589642" />
+    <state width="1398" height="197" key="GridCell.Tab.0.center/1440.0.1440.900/0.0.1440.866@1440.0.1440.900" timestamp="1586793453842" />
     <state width="1398" height="213" key="GridCell.Tab.0.center/1440.23.1440.877/0.23.1440.831@0.23.1440.831" timestamp="1579439968437" />
     <state width="1345" height="185" key="GridCell.Tab.0.center/1440.23.1440.877/0.23.1440.833@0.23.1440.833" timestamp="1578838236789" />
     <state width="1398" height="186" key="GridCell.Tab.0.center/1440.23.1440.877/0.23.1440.834@0.23.1440.834" timestamp="1582449566282" />
     <state width="1398" height="180" key="GridCell.Tab.0.center/1440.23.1440.877/0.23.1440.834@1440.23.1440.877" timestamp="1582452872579" />
-    <state width="1398" height="180" key="GridCell.Tab.0.left" timestamp="1582452872578">
-      <screen x="1440" y="23" width="1440" height="877" />
+    <state width="1398" height="197" key="GridCell.Tab.0.center/1440.23.1440.877/0.23.1440.843@1440.23.1440.877" timestamp="1586792320553" />
+    <state width="1398" height="197" key="GridCell.Tab.0.left" timestamp="1586793453841">
+      <screen x="1440" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="213" key="GridCell.Tab.0.left/1440.0.1440.900/0.0.1440.855@0.0.1440.855" timestamp="1581667585419" />
     <state width="1398" height="213" key="GridCell.Tab.0.left/1440.0.1440.900/0.0.1440.858@0.0.1440.858" timestamp="1582021793335" />
     <state width="1398" height="213" key="GridCell.Tab.0.left/1440.0.1440.900/0.0.1440.859@0.0.1440.859" timestamp="1582021589640" />
+    <state width="1398" height="197" key="GridCell.Tab.0.left/1440.0.1440.900/0.0.1440.866@1440.0.1440.900" timestamp="1586793453841" />
     <state width="1398" height="213" key="GridCell.Tab.0.left/1440.23.1440.877/0.23.1440.831@0.23.1440.831" timestamp="1579439968436" />
     <state width="1345" height="185" key="GridCell.Tab.0.left/1440.23.1440.877/0.23.1440.833@0.23.1440.833" timestamp="1578838236788" />
     <state width="1398" height="186" key="GridCell.Tab.0.left/1440.23.1440.877/0.23.1440.834@0.23.1440.834" timestamp="1582449566281" />
     <state width="1398" height="180" key="GridCell.Tab.0.left/1440.23.1440.877/0.23.1440.834@1440.23.1440.877" timestamp="1582452872578" />
-    <state width="1398" height="180" key="GridCell.Tab.0.right" timestamp="1582452872580">
-      <screen x="1440" y="23" width="1440" height="877" />
+    <state width="1398" height="197" key="GridCell.Tab.0.left/1440.23.1440.877/0.23.1440.843@1440.23.1440.877" timestamp="1586792320553" />
+    <state width="1398" height="197" key="GridCell.Tab.0.right" timestamp="1586793453844">
+      <screen x="1440" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="213" key="GridCell.Tab.0.right/1440.0.1440.900/0.0.1440.855@0.0.1440.855" timestamp="1581667585422" />
     <state width="1398" height="213" key="GridCell.Tab.0.right/1440.0.1440.900/0.0.1440.858@0.0.1440.858" timestamp="1582021793338" />
     <state width="1398" height="213" key="GridCell.Tab.0.right/1440.0.1440.900/0.0.1440.859@0.0.1440.859" timestamp="1582021589645" />
+    <state width="1398" height="197" key="GridCell.Tab.0.right/1440.0.1440.900/0.0.1440.866@1440.0.1440.900" timestamp="1586793453844" />
     <state width="1398" height="213" key="GridCell.Tab.0.right/1440.23.1440.877/0.23.1440.831@0.23.1440.831" timestamp="1579439968438" />
     <state width="1345" height="185" key="GridCell.Tab.0.right/1440.23.1440.877/0.23.1440.833@0.23.1440.833" timestamp="1578838236790" />
     <state width="1398" height="186" key="GridCell.Tab.0.right/1440.23.1440.877/0.23.1440.834@0.23.1440.834" timestamp="1582449566283" />
     <state width="1398" height="180" key="GridCell.Tab.0.right/1440.23.1440.877/0.23.1440.834@1440.23.1440.877" timestamp="1582452872580" />
+    <state width="1398" height="197" key="GridCell.Tab.0.right/1440.23.1440.877/0.23.1440.843@1440.23.1440.877" timestamp="1586792320555" />
     <state width="1398" height="167" key="GridCell.Tab.1.bottom" timestamp="1582452676732">
       <screen x="1440" y="23" width="1440" height="877" />
     </state>
@@ -502,15 +523,19 @@
     <state x="229" y="77" key="SettingsEditor/1440.23.1440.832/0.23.1440.877@0.23.1440.877" timestamp="1578742908009" />
     <state x="229" y="74" key="SettingsEditor/1440.23.1440.877/0.23.1440.832@0.23.1440.832" timestamp="1578822267752" />
     <state x="229" y="74" key="SettingsEditor/1440.23.1440.877/0.23.1440.833@0.23.1440.833" timestamp="1578836911585" />
-    <state x="1760" y="175" key="Vcs.Push.Dialog.v2" timestamp="1583847936939">
+    <state x="1760" y="175" key="Vcs.Push.Dialog.v2" timestamp="1583848089714">
       <screen x="1440" y="23" width="1440" height="877" />
     </state>
     <state x="320" y="167" key="Vcs.Push.Dialog.v2/1440.23.1440.877/0.23.1440.832@0.23.1440.832" timestamp="1578747930973" />
-    <state x="1760" y="175" key="Vcs.Push.Dialog.v2/1440.23.1440.877/0.23.1440.834@1440.23.1440.877" timestamp="1583847936939" />
+    <state x="1760" y="175" key="Vcs.Push.Dialog.v2/1440.23.1440.877/0.23.1440.834@1440.23.1440.877" timestamp="1583848089714" />
     <state x="399" y="271" key="com.intellij.ide.util.TipDialog" timestamp="1578742321054">
       <screen x="0" y="23" width="1440" height="831" />
     </state>
     <state x="399" y="271" key="com.intellij.ide.util.TipDialog/1440.23.1440.877/0.23.1440.831@0.23.1440.831" timestamp="1578742321054" />
+    <state x="91" y="62" key="new project wizard" timestamp="1584452867702">
+      <screen x="0" y="23" width="1440" height="834" />
+    </state>
+    <state x="91" y="62" key="new project wizard/1440.23.1440.877/0.23.1440.834@0.23.1440.834" timestamp="1584452867702" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
