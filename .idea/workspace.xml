@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="414581f8-90f7-4281-a21b-b9f6dc20165e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/con/carry/并发/ReadWriteLockDemo1.java" afterDir="false" />
+    <list default="true" id="414581f8-90f7-4281-a21b-b9f6dc20165e" name="Default" comment="读写锁">
+      <change afterPath="$PROJECT_DIR$/src/main/java/con/carry/并发/生产者消费者模型/BlockQueueDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/con/carry/并发/生产者消费者模型/ReetLockDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/con/carry/并发/lock/ReadWriteLockDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/con/carry/并发/lock/ReadWriteLockDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,18 +20,6 @@
         <option value="Class" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>I</find>
-      <find>IC</find>
-      <find>ICO</find>
-      <find>ICON</find>
-      <find>ICONS</find>
-    </findStrings>
-    <replaceStrings>
-      <replace />
-    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -75,7 +63,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/con/carry/jvm" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ReadWriteLockDemo (1)">
+  <component name="RunManager" selected="Application.BlockQueueDemo">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -111,27 +99,13 @@
       <module />
       <method />
     </configuration>
-    <configuration name="CglibProxy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="con.carry.设计模式.代理模式.cglib代理.CglibProxy" />
+    <configuration name="BlockQueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="con.carry.并发.生产者消费者模型.BlockQueueDemo" />
       <module name="平时测试工程" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="con.carry.设计模式.代理模式.cglib代理.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="con.carry.设计模式.策略模式.Client" />
-      <module name="平时测试工程" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="con.carry.设计模式.策略模式.*" />
+          <option name="PATTERN" value="con.carry.并发.生产者消费者模型.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,6 +134,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="con.carry.并发.lock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReetLockDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="con.carry.并发.生产者消费者模型.ReetLockDemo" />
+      <module name="平时测试工程" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="con.carry.并发.生产者消费者模型.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -294,19 +282,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.CglibProxy" />
-      <item itemvalue="Application.Client" />
       <item itemvalue="Application.SpinLock" />
       <item itemvalue="Application.ReadWriteLockDemo" />
       <item itemvalue="Application.ReadWriteLockDemo (1)" />
+      <item itemvalue="Application.ReetLockDemo" />
+      <item itemvalue="Application.BlockQueueDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BlockQueueDemo" />
+        <item itemvalue="Application.ReetLockDemo" />
         <item itemvalue="Application.ReadWriteLockDemo (1)" />
         <item itemvalue="Application.ReadWriteLockDemo" />
         <item itemvalue="Application.SpinLock" />
-        <item itemvalue="Application.Client" />
-        <item itemvalue="Application.CglibProxy" />
       </list>
     </recent_temporary>
   </component>
@@ -347,37 +335,54 @@
       <workItem from="1569073222472" duration="2994000" />
       <workItem from="1569143144118" duration="14021000" />
     </task>
+    <task id="LOCAL-00001" summary="读写锁">
+      <created>1586955665967</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1586955665967</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="读写锁" />
+    <option name="LAST_COMMIT_MESSAGE" value="读写锁" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="1790" y="52" key="CommitChangelistDialog2" timestamp="1586871551951">
-      <screen x="1440" y="0" width="1440" height="867" />
+    <state x="1973" y="173" key="#com.intellij.ide.util.MemberChooser" timestamp="1587044228384">
+      <screen x="1440" y="0" width="1440" height="900" />
+    </state>
+    <state x="1973" y="173" key="#com.intellij.ide.util.MemberChooser/1440.0.1440.900/0.0.1440.867@1440.0.1440.900" timestamp="1587044228384" />
+    <state x="1790" y="54" key="CommitChangelistDialog2" timestamp="1586955665165">
+      <screen x="1440" y="0" width="1440" height="900" />
     </state>
     <state x="1790" y="52" key="CommitChangelistDialog2/1440.0.1440.867/0.0.1440.900@1440.0.1440.867" timestamp="1586871551951" />
+    <state x="1790" y="54" key="CommitChangelistDialog2/1440.0.1440.900/0.23.1440.844@1440.0.1440.900" timestamp="1586955665165" />
     <state x="1540" y="100" width="1240" height="700" key="DiffContextDialog" timestamp="1586871492897">
       <screen x="1440" y="0" width="1440" height="867" />
     </state>
     <state x="1540" y="100" width="1240" height="700" key="DiffContextDialog/1440.0.1440.867/0.0.1440.900@1440.0.1440.867" timestamp="1586871492897" />
-    <state width="1398" height="151" key="GridCell.Tab.0.bottom" timestamp="1586875745615">
+    <state width="1398" height="213" key="GridCell.Tab.0.bottom" timestamp="1587045544445">
       <screen x="1440" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="294" key="GridCell.Tab.0.bottom/1440.0.1440.867/0.0.1440.900@1440.0.1440.867" timestamp="1586871582412" />
-    <state width="1398" height="151" key="GridCell.Tab.0.bottom/1440.0.1440.900/0.0.1440.867@1440.0.1440.900" timestamp="1586875745615" />
-    <state width="1398" height="151" key="GridCell.Tab.0.center" timestamp="1586875745612">
+    <state width="1398" height="213" key="GridCell.Tab.0.bottom/1440.0.1440.900/0.0.1440.867@1440.0.1440.900" timestamp="1587045544445" />
+    <state width="1398" height="213" key="GridCell.Tab.0.center" timestamp="1587045544442">
       <screen x="1440" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="294" key="GridCell.Tab.0.center/1440.0.1440.867/0.0.1440.900@1440.0.1440.867" timestamp="1586871582408" />
-    <state width="1398" height="151" key="GridCell.Tab.0.center/1440.0.1440.900/0.0.1440.867@1440.0.1440.900" timestamp="1586875745612" />
-    <state width="1398" height="151" key="GridCell.Tab.0.left" timestamp="1586875745611">
+    <state width="1398" height="213" key="GridCell.Tab.0.center/1440.0.1440.900/0.0.1440.867@1440.0.1440.900" timestamp="1587045544442" />
+    <state width="1398" height="213" key="GridCell.Tab.0.left" timestamp="1587045544440">
       <screen x="1440" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="294" key="GridCell.Tab.0.left/1440.0.1440.867/0.0.1440.900@1440.0.1440.867" timestamp="1586871582407" />
-    <state width="1398" height="151" key="GridCell.Tab.0.left/1440.0.1440.900/0.0.1440.867@1440.0.1440.900" timestamp="1586875745609" />
-    <state width="1398" height="151" key="GridCell.Tab.0.right" timestamp="1586875745614">
+    <state width="1398" height="213" key="GridCell.Tab.0.left/1440.0.1440.900/0.0.1440.867@1440.0.1440.900" timestamp="1587045544440" />
+    <state width="1398" height="213" key="GridCell.Tab.0.right" timestamp="1587045544443">
       <screen x="1440" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="294" key="GridCell.Tab.0.right/1440.0.1440.867/0.0.1440.900@1440.0.1440.867" timestamp="1586871582410" />
-    <state width="1398" height="151" key="GridCell.Tab.0.right/1440.0.1440.900/0.0.1440.867@1440.0.1440.900" timestamp="1586875745614" />
+    <state width="1398" height="213" key="GridCell.Tab.0.right/1440.0.1440.900/0.0.1440.867@1440.0.1440.900" timestamp="1587045544443" />
     <state width="1398" height="294" key="GridCell.Tab.1.bottom" timestamp="1586875038400">
       <screen x="1440" y="0" width="1440" height="900" />
     </state>
@@ -406,10 +411,23 @@
       <screen x="1440" y="0" width="1440" height="867" />
     </state>
     <state x="1975" y="179" key="RollbackChangesDialog/1440.0.1440.867/0.0.1440.900@1440.0.1440.867" timestamp="1586872188668" />
+    <state x="1760" y="190" key="Vcs.Push.Dialog.v2" timestamp="1586956587214">
+      <screen x="1440" y="0" width="1440" height="900" />
+    </state>
+    <state x="1760" y="190" key="Vcs.Push.Dialog.v2/1440.0.1440.900/0.0.1440.867@1440.0.1440.900" timestamp="1586956587214" />
+    <state x="1760" y="190" key="Vcs.Push.Dialog.v2/1440.0.1440.900/0.23.1440.844@1440.0.1440.900" timestamp="1586955668168" />
     <state x="1949" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586871515762">
       <screen x="1440" y="0" width="1440" height="867" />
     </state>
     <state x="1949" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1440.0.1440.867/0.0.1440.900@1440.0.1440.867" timestamp="1586871515762" />
+    <state x="1826" y="207" width="667" height="486" key="find.popup" timestamp="1586956613272">
+      <screen x="1440" y="0" width="1440" height="900" />
+    </state>
+    <state x="1826" y="207" width="667" height="486" key="find.popup/1440.0.1440.900/0.0.1440.867@1440.0.1440.900" timestamp="1586956613272" />
+    <state x="1825" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1586959978680">
+      <screen x="1440" y="0" width="1440" height="900" />
+    </state>
+    <state x="1825" y="196" width="670" height="676" key="search.everywhere.popup/1440.0.1440.900/0.0.1440.867@1440.0.1440.900" timestamp="1586959978680" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
